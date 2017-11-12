@@ -1,0 +1,87 @@
+<div>
+  <h2>Register</h2>
+  <form class="form form--register" method="post" action="#">
+    <div class="form__group-block">
+      <div class="form__group">
+        <label class="form__label" for="name">Name <abbr title="required">*</abbr></label>
+        <input class="form__field"
+               id="name"
+               name="name"
+               type="text"
+               placeholder="User name"
+               required
+               aria-required="true">
+      </div>
+
+      <div class="form__group">
+        <label class="form__label" for="last-name">Last name <abbr title="required">*</abbr></label>
+        <input class="form__field"
+               id="last-name"
+               name="last-name"
+               type="text"
+               placeholder="Last name"
+               required
+               aria-required="true">
+      </div>
+    </div>
+
+    <div class="form__group">
+      <label class="form__label" for="email">Email <abbr title="required">*</abbr></label>
+      <input class="form__field"
+             id="email"
+             name="email"
+             type="email"
+             placeholder="Password"
+             required
+             aria-required="true">
+    </div>
+
+    <div class="form__group">
+      <label class="form__label" for="password">Password <abbr title="required">*</abbr></label>
+      <input class="form__field"
+             id="password"
+             name="password"
+             type="password"
+             placeholder="Password"
+             required
+             aria-required="true">
+    </div>
+
+    <div class="form__group">
+      <label class="form__label" for="confirm-password">Confirm password <abbr title="required">*</abbr></label>
+      <input class="form__field"
+             id="confirm-password"
+             name="confirm-password"
+             type="password"
+             placeholder="Confirm password"
+             required
+             aria-required="true">
+    </div>
+
+    <div class="form__group">
+      <div class="radio">
+        <input id="male" name="gender" type="radio" checked>
+        <label for="male">Male</label>
+      </div>
+      <div class="radio">
+        <input id="female" name="gender" type="radio">
+        <label for="female">Female</label>
+      </div>
+    </div>
+
+    <div class="form__group">
+      <div class="checkbox">
+        <input id="agree" name="agree" type="checkbox">
+        <label for="agree">i agree with <a href="#" title="Terms and Conditions">terms</a> <abbr title="required">*</abbr></label>
+      </div>
+    </div>
+
+    <div class="form__group">
+      <button class="btn" type="submit">Register</button>
+    </div>
+
+    <div class="form__group">
+      <p>Already have an account? <a href="#" title="Login page">login here</a></p>
+    </div>
+  </form>
+</div>

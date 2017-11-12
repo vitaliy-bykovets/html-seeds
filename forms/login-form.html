@@ -1,0 +1,42 @@
+<div>
+  <h2>Login</h2>
+  <form class="form form--login" method="post" action="#">
+    <div class="form__group">
+      <label class="form__label" for="user-name">Username <abbr title="required">*</abbr></label>
+      <input class="form__field"
+             id="user-name"
+             name="user-name"
+             type="text"
+             placeholder="User name"
+             required
+             aria-required="true">
+    </div>
+
+    <div class="form__group">
+      <label class="form__label" for="user-password">Password <abbr title="required">*</abbr></label>
+      <input class="form__field"
+             id="user-password"
+             name="user-password"
+             type="password"
+             placeholder="Password"
+             required
+             aria-required="true">
+    </div>
+
+    <div class="form__group">
+      <div class="checkbox">
+        <input id="remember" name="remember" type="checkbox">
+        <label for="remember">remember me</label>
+      </div>
+    </div>
+
+    <div class="form__group">
+      <button class="btn" type="submit">login</button>
+    </div>
+
+    <div class="form__group">
+      <p>Forgot your password? <a href="#" title="Send a new password">click here</a></p>
+      <p>New user? <a href="#" title="Create new account">create new account</a></p>
+    </div>
+  </form>
+</div>
